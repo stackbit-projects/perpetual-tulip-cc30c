@@ -165,43 +165,6 @@ sections:
         textAlign: center
     imageSizePx: 240
     type: MediaGallerySection
-  - elementId: ''
-    colors: colors-a
-    title: 'A great feature, we’re proud of'
-    text: >
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
-    feature:
-      type: ImageBlock
-      url: /images/Image-on-the-right.svg
-      altText: Hero section image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-36
-          - pb-6
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderColor: border-primary
-        borderWidth: 0
-        borderStyle: solid
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
   - colors: colors-h
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
@@ -293,6 +256,43 @@ sections:
       actions:
         justifyContent: flex-start
     type: FeaturedItemsSection
+  - elementId: ''
+    colors: colors-a
+    title: 'A great feature, we’re proud of'
+    text: >
+      Share WIP, comment on each other’s work, approve what’s ready to go, ship
+      together
+    feature:
+      type: ImageBlock
+      url: /images/Image-on-the-right.svg
+      altText: Hero section image
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-36
+          - pb-6
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+        borderColor: border-primary
+        borderWidth: 0
+        borderStyle: solid
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: HeroSection
   - elementId: ''
     colors: colors-a
     title: And a strong value proposition
